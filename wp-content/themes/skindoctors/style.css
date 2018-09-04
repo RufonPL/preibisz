@@ -1277,3 +1277,16 @@ footer .h2-like.unstyled {
 .scrolling-panel .h4-like {
 	
 }
+@media (min-width: 870px) {
+	#lmm.lmm-navbar .container .lmm-navbar-brand {
+		margin-left: -30px;
+		padding-right: 0;
+	}
+	#lmm .lmm-navbar-nav {
+		text-align: right;
+	}
+	#lmm .lmm-navbar-nav > li.lmm-item > a > .lmm-item-content {
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+}
