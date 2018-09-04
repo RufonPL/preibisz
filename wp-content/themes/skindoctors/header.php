@@ -73,13 +73,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <?php lmmmenu(array("theme_location" => "top")); ?>
 </header>
 
+<?php $pricelist_url = get_field('cennik', 571);?>
 <section class="head-position">
     <div class="container" style="z-index: 100">
         <div class="nav-header">
             <ul class="list-inline pull-right">
                 <li><i class="fa fa-lock" aria-hidden="true"></i>
                     <a href="http://www.preibisz.com/wp-content/uploads/2018/06/Polityka-prywatności-2.pdf" target="_blank">Polityka prywatności</a></li>
-				<li><i class="fa fa-file-text-o"></i> <a target="_blank" href="http://www.preibisz.com/wp-content/uploads/2018/07/cennik5.pdf">Cennik</a></li>
+				<li><i class="fa fa-file-text-o"></i> <a target="_blank" href="<?= $pricelist_url ?>">Cennik</a></li>
                 <li><i class="fa fa-phone"></i> <a href="tel:221268000">22 126 80 00</a></li>
                 <li><i class="fa fa-envelope"></i> <a href="mailto:recepcja@preibisz.com">recepcja@preibisz.com</a></li>
                 <li><a href="https://www.facebook.com/PreibiszSkinDoctors/?fref=ts" target="_blank"> <i class="fa fa-facebook"></i></a></li>
